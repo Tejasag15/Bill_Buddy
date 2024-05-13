@@ -1,0 +1,148 @@
+/* Settings.css */
+
+.settings-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  .dash{
+    border:2px dashed gold;
+  }
+  .settings-cont {
+    background-color: rgb(41, 39, 39);
+    width: 1050px;
+    margin-left: 9%;
+    height: 720px;
+    margin-top: 2%;
+    border-radius: 12px;
+    
+  }
+  
+  .settings-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 480px;
+    border-radius: 12px;
+    margin-top: -650px;
+  }
+  
+  .settings-content h2 {
+    color: white;
+  }
+  
+  .settings-content h3 {
+    color: gold;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-right: 15px;
+    max-height: 700px;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  .settings-content input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid gold;
+  }
+  
+  .sr-btn {
+    color: gold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: -250px;
+  }
+  
+  .sr-btn button:hover {
+    background-color: black;
+  }
+  
+  .rs-btn {
+    color: gold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: -220px;
+    margin-top: -97px;
+  }
+  
+  .rs-btn button:hover {
+    background-color: black;
+  }
+  
+  .srs-btn {
+    color: gold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: -250px;
+  }
+  
+  .srs-btn button:hover {
+    background-color: black;
+  }
+  
+  .rss-btn {
+    color: gold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: -220px;
+    margin-top: -97px;
+  }
+  
+  .rss-btn button:hover {
+    background-color: black;
+  }
+  
+  form div button:hover {
+    background-color: #e0ad03;
+  }
+  
+  /* Additional styling for the table */
+  .client-settings-table {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: -800px;
+  }
+  
+  .client-settings-table h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .client-settings-table table {
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  
+  .client-settings-table th,
+  .client-settings-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid white;
+  }
+  
+  .client-settings-table th {
+    background-color: gold;
+  }
+  
+  .client-settings-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  

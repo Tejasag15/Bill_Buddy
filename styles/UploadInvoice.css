@@ -1,0 +1,95 @@
+/* UploadInvoice.css */
+
+.upload-invoice-page {
+  height: 108vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgb(0 0 0 / 90%),
+    rgba(34, 33, 33, 0.35)
+  ),
+  url(../assets/images/upload.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #ffc107;
+  width:100%;
+  margin-top:-800px;
+
+}
+
+.content1 {
+  text-align: center;
+  position: relative;
+  z-index: 4;
+  margin-top: -80px;
+  width:1350px;
+  margin-left:300px;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.file-input-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+input[type="file"] {
+  margin-bottom: 1rem;
+  border: 2px solid #fff; 
+  border-radius: 10px; 
+  font-size: 1.8rem;
+  padding: 1.5rem;
+  background-color: transparent; 
+  color: #fff;
+}
+
+button {
+  background: #ffc107;
+  color: #13131a;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: block; 
+  margin: 0 auto; 
+}
+
+button:hover {
+  background-color: #13131a;
+  color: #ffc107;
+}
+
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  width:600px;
+  transform: translate(-50%, -50%);
+  background-color:white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  text-align: center;
+}
+
+.success-popup img {
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-right:380px;
+  margin-left: 80px;
+}

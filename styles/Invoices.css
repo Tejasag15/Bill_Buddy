@@ -1,0 +1,226 @@
+.userdashboard1{
+  min-height:100vh;
+}
+
+.invoices-content{
+  margin-left:1050px;
+  margin-top:-300px;
+  background-color: rgb(47, 46, 46);
+  width:300px;
+  height:150px;
+  border-radius:12px;
+}
+.invoices-content h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gold;
+  text-align: center;
+  margin-top:45px;
+  margin-left:5px;
+}
+.send-invoice-container {
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 100%; 
+  max-width: 1200px; 
+  height:650px;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 9999;
+}
+.send-invoice-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 100%;
+  max-width: 1300px;
+  height:70vh;
+  overflow-y: auto; 
+  margin-top:20px;
+}
+
+.close-popup {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  font-size: 40px;
+  color: #000;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 8px;
+  
+}
+
+.send-invoice-content textarea {
+  resize: vertical;
+  height:200px;
+}
+
+.send-invoice-content button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 26px;
+  cursor: pointer;
+  width:150px;
+}
+
+.send-invoice-content button:hover {
+  background-color: #45a049;
+}
+
+
+.form-group input[type="checkbox"] {
+  margin-right: 8px; 
+  
+}
+
+.form-group label[for="sendBccCopy"] {
+  display: inline-block;
+ } 
+
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1000;
+}
+
+.success-popup img {
+  width: 500px; 
+  height: auto;
+}
+
+.success-popup h2 {
+  color: #2ecc71; 
+}
+
+.success-popup p {
+  margin-top: 10px;
+}
+
+.success-popup button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #3498db; 
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.success-popup button:hover {
+  background-color: #2980b9; 
+}
+
+.client-box {
+  background-color: rgb(47, 46, 46);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto; 
+  width: 75%; 
+  margin-top:-590px;
+  margin-left:350px;
+}
+
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.client-table h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gold;
+  text-align: center;
+  margin-top: 0;
+}
+
+.client-table table {
+  width: 100%;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.client-table th, .client-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+.client-table th {
+  background-color: gold;
+}
+
+/* .client-table tbody tr:hover {
+  background-color: #9d9b9b;
+} */
+
+.form-group button{
+  background-color:gold;
+  margin-left:0px;
+}
+.form-group button:hover{
+  background-color:black;
+
+}
+
+.client-table td:last-child {
+  width: 150px;
+  white-space: nowrap; 
+}
+
+.send-invoice-button,
+.delete-button {
+  background-color: #2ecc71; 
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left:10px;
+}
+
+.send-invoice-button:hover {
+  background-color: #27ae60; 
+}
+
+.delete-button {
+  background-color: #e74c3c; 
+  margin-left: 200px;
+  margin-top:-40px; 
+}
+
+.delete-button:hover {
+  background-color: #c0392b; 
+}

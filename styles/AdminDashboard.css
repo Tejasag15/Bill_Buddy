@@ -1,0 +1,68 @@
+.admin-dashboard {
+  background-color: #000;
+  color: gold;
+  padding: 20px;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(0 0 0 / 90%),
+    rgba(34, 33, 33, 0.35)
+  ),
+  url(../assets/images/admin_dashboard.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #ffc107;
+}
+.admin-dashboard h2{
+  color:#ffc107;
+  font-size: 55px;
+}
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 90px;
+  margin-top:80px;
+}
+
+.dashboard-card {
+  background-color: gold; 
+  color: black;
+  padding: 10px; 
+  text-align: center;
+  flex: 1;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 5px 5px #3B3131; 
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  max-width: 300px;
+  
+}
+
+.dashboard-card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 14px;
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+  .card-row {
+    flex-direction: column;
+  }
+
+  .dashboard-card {
+    max-width: none;
+    width: 100%;
+    margin-right: 0;
+  }
+}

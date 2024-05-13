@@ -1,0 +1,57 @@
+
+.freelancer-dashboard {
+    display: flex;
+  }
+  
+  .freelancer-welcome-box {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    margin-top:100px;
+    height: 233px;
+  }
+  
+.freelancer-welcome-box p {
+  color: gold;
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.freelancer-welcome-box button {
+  background-color: gold;
+  color: rgb(23, 23, 23);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 26px;
+  width: 150px;
+}
+
+
+  .freelancer-features-box h1 {
+    color: #fff;
+    font-size: 34px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .freelancer-features-box h2 {
+    color: gold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .freelancer-features-box {
+    background-color: rgb(47, 46, 46);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px;
+    width: 600px;
+    height: 280px;
+    margin-top: 80px;
+    margin-left: 70px;
+  }

@@ -1,0 +1,168 @@
+/* Add your existing styles if any */
+
+.review {
+  min-height: 200vh;
+  
+}
+.review img{
+ height:700px;
+  width:730px; 
+  margin-top:30px;
+  margin-left:45px;
+}
+.review1{
+display:flex;
+}
+.review-form {
+  margin-top:-640px;
+  margin-left: 920px;
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+  width: 550px;
+  border-radius: 12px;
+  height: 570px;
+  
+}
+
+.heading {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+}
+
+.quote {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.review-item p {
+  font-size: 20px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.user {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.review h1 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.star-rating {
+  color: black;
+  font-size: 44px;
+  margin-top: 10px;
+}
+
+.star-rating span {
+  cursor: pointer;
+}
+
+.star-rating .filled {
+  color: gold; /* Change this color to the desired color when the star is filled */
+}
+
+.review-item {
+  background-color: white;
+  width: 300px;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ddd; /* Add a background color for the avatar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-letter {
+  font-size: 20px;
+  color: #333;
+}
+
+.rating {
+  color: black;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.rating span {
+  cursor: pointer;
+}
+
+.rating .filled {
+  color: gold; /* Change this color to the desired color when the star is filled */
+}
+
+.user-details {
+  margin-left: 15px;
+}
+
+/* Override existing styles for specific element */
+.box .user {
+  width: 100px !important; /* Use !important to override existing styles */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .box-container {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+.review-item {
+  background-color: black;
+  width: 500px;
+  border:1px solid white;
+}
+.review-list h2{
+  color:gold;
+  margin-top:100px;
+  margin-right:150px;
+  text-align:center;
+}
+
+.review-list strong{
+/* max-width:280px; */
+overflow-wrap: break-word;
+}
+.review-list{
+ width:100%;
+ 
+}

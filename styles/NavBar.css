@@ -1,0 +1,103 @@
+/* styles/Navbar.css */
+
+.header {
+  background-color: #000;
+  color: #ffd700;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 90px;
+  height: 60px;
+}
+
+.navbar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 20px;
+}
+
+
+.navbar a {
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    padding: 10px 0;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar a {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ffd700;
+  }
+
+  .icons {
+    display: none;
+  }
+}
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0px;  
+  padding: 0 20px; 
+  font-weight: bold;
+  color: gold;
+  font-size: 23px;
+}
+
+.user-actions a,
+.login-links a {
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+.user-actions a:hover,
+.login-links a:hover {
+  color: #fff;
+}
+/* Add a class to highlight the selected link */
+.navbar a.selected {
+  
+  color: #ffd700; /* Change to match your text color */
+}

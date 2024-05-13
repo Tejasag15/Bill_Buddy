@@ -1,0 +1,233 @@
+
+.invoice-dashboard {
+    display: flex; /* Use flexbox to arrange the sidebar and content side by side */
+}
+.tab-switch {
+   display:flex;
+    max-width: 840px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top:20px;
+   margin-left:150px;
+    
+}
+
+.btn-cmn {
+    margin: 0;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-right: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-rmv {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+#total-amount {
+    text-align: right;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+button.preview {
+    background-color:gold;
+}
+
+button.edit {
+    background-color: gold;
+}
+button.generate {
+    background-color: gold;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#edit-tab {
+    display: none;
+}
+
+#invoice {
+    /* max-width: 800px; */
+    margin: 5px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #555;
+    margin-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-top:30px;
+    margin-left:150px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+#invoice-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#client-details,
+#invoice-info,
+#payment-info {
+    float: left;
+    width: 33.33%; /* Adjust width to fit all three sections */
+    box-sizing: border-box; /* include padding and border in the element's total width and height */
+}
+
+
+#client-details {
+    float: left;
+    width: calc(50% - 10px); /* Adjust the width based on your needs */
+    box-sizing: border-box; /* include padding and border in the element's total width and height */
+    margin-right: 20px; /* Add margin between columns */
+}
+
+#invoice-info {
+    float: left;
+    width: calc(50% - 10px); /* Adjust the width based on your needs */
+    box-sizing: border-box;
+    margin-right: 20px; /* include padding and border in the element's total width and height */
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 14px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Table styles */
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Table header styles */
+.invoice-table th {
+    background-color: black;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Table body styles */
+.invoice-table td {
+    border: 1px solid #ddd;
+    padding: 4px 15px;
+    text-align: left;
+}
+
+/* Table row styles */
+.invoice-table tr {
+    background-color: #fff;
+}
+
+/* Alternate row styles */
+.invoice-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+#invoice-total {
+    text-align: right;
+    margin-top: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+.cmn-input {
+    /* Add your common input styles here */
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+button:hover {
+    background-color: black;
+}
+
+/* #client-image {
+    display: none;
+} */
+
+#client-preview {
+    max-width: 100%;
+    max-height: 60px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Styles not applied in PDF */
+@media print {
+    input {
+        border: none !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid #ddd !important;
+    }
+
+    button {
+        display: none !important;
+    }
+}

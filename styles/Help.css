@@ -1,0 +1,79 @@
+/* Help.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.help-container {
+  display: flex;
+  background-color: hwb(60 12% 87%);
+  height: 100vh;
+  position: relative;
+  /* margin-bottom: 40%; */
+}
+
+/* Existing styles for sidebar and other elements */
+
+.help-content {
+  flex-grow: 1;
+  padding: 20px;
+  color: hsl(13, 31%, 94%);
+  margin-bottom: 40px;
+  max-width: 70%;
+  margin: left -10px;
+  
+}
+
+.help-sub-container {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #333; /* Adjust background color as needed */
+}
+
+.help-sub-container h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.help-sub-container p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.help-sub-container-a{
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #333;
+
+}
+
+.help-sub-container-a h2{
+    color: gold;
+    
+  }
+  .help-sub-container-b{
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #333;
+  
+  }
+  .help-sub-container-b h2{
+    color: gold;
+    
+  }
+  .help-sub-container-c{
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #333;
+  
+  }
+  .help-sub-container-c h2{
+    color: gold;
+    
+  }

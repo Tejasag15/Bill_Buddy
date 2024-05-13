@@ -1,0 +1,170 @@
+/* styles/RegisterForm.css */
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+.input-box{
+margin-bottom: 20px;
+  text-align: left;
+  font-size: 10pt;
+}
+
+.container {
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  height: 93%; 
+  max-height: 700px;
+  overflow-y: auto;
+  margin-top:10px;
+}
+
+.container.taller-form {
+  max-height: 800px; 
+  overflow-y: auto; 
+}
+
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-by-side > div {
+  margin-right: -20px; /* Adjust the value to the desired amount of space in pixels */
+}
+.input-box select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #000;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  
+}
+
+.input-box select:hover {
+  border-color: #999;
+}
+
+.input-box select:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.input-box input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #000;
+  background-color: #f5f5f5;
+}
+
+.input-box input[type="text"]:hover {
+  border-color: #999;
+}
+
+.input-box input[type="text"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.input-box input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #000;
+  background-color: #f5f5f5;
+  
+}
+
+.input-box input[type="date"]:hover {
+  border-color: #999;
+}
+
+.input-box input[type="date"]:focus {
+  outline: none;
+  border-color: #4caf50;
+  
+}
+
+.input-box input[type="tel"]
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #000;
+  background-color: #f5f5f5;
+  margin-left:0px;
+  
+}
+
+.input-box input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #000;
+  background-color: #f5f5f5;
+  
+  
+}
+
+.input-box input[type="tel"]:hover,
+.input-box input[type="email"]:hover {
+  border-color: #999;
+}
+
+.input-box input[type="tel"]:focus,
+.input-box input[type="email"]:focus {
+  outline: none;
+  border-color: #4caf50;
+  margin-left:2px;
+}
+
+.container.freelancer {
+  max-height: 400px;
+  overflow-y: auto;
+}
+.input-box.company-name label {
+  margin-top: 70px;
+  display: block;
+  font-weight: bold;
+  margin-top:30px;
+}
+
+.input-box.company-name input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #000;
+  background-color: #f5f5f5;
+  margin-top: 10px;
+  margin-top:5px;
+}
+span.password-toggle-icon{
+  margin-left:350px;
+  height:80px;
+}
+.password-toggle-icon{
+  margin-top:-10px;
+}
+.password-toggle-icon svg{
+  margin-top:-75px;
+}
